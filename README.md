@@ -19,10 +19,10 @@ from openbudget import OpenBudget
 
 
 async def main():
-    openbudget = OpenBudget(phone='998990326102', application='122885')
+    openbudget = OpenBudget(phone='99899#######', application='######')
     data: dict = await openbudget.send_code()
     if data.get('token'):
-        code: str = input()
+        code: str = input('******')
         response: dict = await openbudget.vote(token=data.get('token'), code=code)
         print(response)
     await openbudget.close()
