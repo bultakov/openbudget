@@ -6,15 +6,15 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name='openbudget',
+    name='OpenBudgetAPI',
     version=__version__,
     url='https://github.com/bultakov/openbudget',
     license='MIT',
     author='Ibrohim Bultakov',
     python_requires='>=3.7',
     author_email='bii23.uz@gmail.com',
-    description='openbudget.uz uchun Asinxron kutubxona!!!',
-    keywords=['openbudget', 'openbudget.uz', 'pypi', 'python'],
+    description='OpenBudget.uz uchun Asinxron kutubxona!!!',
+    keywords=['OpenBudget', 'OpenBudget.uz', 'pypi', 'python', 'AsyncIO'],
     long_description_content_type="text/markdown",
     long_description=long_description,
     classifiers=[
