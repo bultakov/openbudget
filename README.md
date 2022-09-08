@@ -1,5 +1,9 @@
 # OpenBudget
 
+```
+pip install OpenBudgetAPI -U
+```
+
 OpenBudget.uz tizimining Ovoz berish xizmatini ishlatish uchun yordamchi.
 
 Foydalanishni boshlash uchun OpenBudget classidan obyekt olamiz va ushbu obyektdan kerakli so'rovlarni yuborib
