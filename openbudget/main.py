@@ -1,7 +1,7 @@
-from openbudget.requests import Requests
+from openbudget.async_requests import AsyncRequests
 
 
-class OpenBudget(Requests):
+class OpenBudget(AsyncRequests):
     async def send_code(self) -> dict:
         json_data = {
             'phone': self.phone,

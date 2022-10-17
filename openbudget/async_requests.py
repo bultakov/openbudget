@@ -3,7 +3,7 @@ from asyncio import get_event_loop, AbstractEventLoop
 from aiohttp import ClientSession
 
 
-class Requests:
+class AsyncRequests:
     def __init__(self, phone: str, application: str, loop: AbstractEventLoop = None):
         self.phone = phone
         self.application = application
